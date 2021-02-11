@@ -1,16 +1,11 @@
 {
-  "deliveryOrders": [
+  "products": [
     {
-      "date": 1590706800000,
-      "products": [
-        {
-          "name": "Chorizo",
-          "weight": 2.200,
-          "unit": "Kg",
-          "price": 2.23,
-          "total": 4.46
-        }
-      ]
+      "name": "Chorizo",
+      "unit": 2.200,
+      "iva": 0.21,
+      "price": 2.23,
+      "total": 4.46
     }
   ],
   "date": 1590706800000,

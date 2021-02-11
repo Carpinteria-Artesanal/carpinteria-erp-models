@@ -1,18 +1,13 @@
 {
   "invoices": [
     {
-      "deliveryOrders": [
+      "products": [
         {
-          "date": 1590706800000,
-          "products": [
-            {
-              "name": "Morzilla",
-              "weight": 4.200,
-              "unit": "Kg",
-              "price": 1.43,
-              "total": 5.27
-            }
-          ]
+          "name": "Morzilla",
+          "unit": 4.200,
+          "iva": 0.1,
+          "price": 1.43,
+          "total": 5.27
         }
       ],
       "date": 1590704800000,
@@ -23,16 +18,13 @@
       "client": "5ed16182ed10b76e2856f079"
     },
     {
-      "deliveryOrders": [
+      "products": [
         {
-          "date": 1590703800000,
-          "products": [{
-            "name": "Salchichas",
-            "weight": 1.700,
-            "unit": "Unid",
-            "price": 10.77,
-            "total": 17.47
-          }]
+          "name": "Salchichas",
+          "unit": 1.700,
+          "iva": 0.16,
+          "price": 10.77,
+          "total": 17.47
         }
       ],
       "date": 1590706800000,

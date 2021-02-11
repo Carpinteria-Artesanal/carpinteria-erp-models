@@ -1,7 +1,7 @@
 {
-  "name": "arroyo-erp-models",
-  "version": "1.0.2",
-  "description": "Models for arroyo erp",
+  "name": "carpinteria-erp-models",
+  "version": "0.1.0",
+  "description": "Models for carpinteria erp",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soker90/arroyo-erp-models.git"
+    "url": "git+https://github.com/soker90/carpinteria-erp-models.git"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",

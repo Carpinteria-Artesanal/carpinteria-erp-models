@@ -1,21 +1,17 @@
 const {
-  Schema,
-  model,
-} = require('mongoose');
+        Schema,
+        model,
+      } = require('mongoose');
 
 const clientInvoiceSchema = new Schema({
-  deliveryOrders: [{
-    date: Number,
-    total: Number,
-    products: [{
-      name: String,
-      weight: Number,
-      unit: String,
-      price: Number,
-      total: Number,
-    }],
-  }],
   date: Number,
+  products: [{
+    name: String,
+    unit: Number,
+    price: Number,
+    iva: Number,
+    total: Number,
+  }],
   taxBase: Number,
   iva: Number,
   total: Number,
