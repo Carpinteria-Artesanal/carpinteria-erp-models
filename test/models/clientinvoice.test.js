@@ -37,6 +37,8 @@ const _checkCreated = (document, mock) => {
       .toBe(mock.products[index].iva);
     expect(product.price)
       .toBe(mock.products[index].price);
+    expect(product.taxBase)
+      .toBe(mock.products[index].taxBase);
     expect(product.total)
       .toBe(mock.products[index].total);
   });

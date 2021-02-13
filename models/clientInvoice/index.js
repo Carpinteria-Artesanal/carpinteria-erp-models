@@ -10,6 +10,7 @@ const clientInvoiceSchema = new Schema({
     unit: Number,
     price: Number,
     iva: Number,
+    taxBase: Number,
     total: Number,
   }],
   taxBase: Number,

@@ -1,6 +1,6 @@
 {
   "name": "carpinteria-erp-models",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Models for carpinteria erp",
   "main": "index.js",
   "scripts": {
@@ -33,11 +33,11 @@
     "bcrypt": "^5.0.0",
     "bluebird": "^3.7.2",
     "mongodb-memory-server": "^6.9.3",
-    "mongoose": "^5.11.13",
+    "mongoose": "^5.11.16",
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
-    "eslint": "^7.18.0",
+    "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^24.1.3",

@@ -4,6 +4,7 @@
       "name": "Chorizo",
       "unit": 2.200,
       "iva": 0.21,
+      "taxBase": 3.20,
       "price": 2.23,
       "total": 4.46
     }
