@@ -14,8 +14,6 @@ const providersSchema = new Schema({
   businessName: String,
   cif: String,
   note: String,
-  type: String,
-  hasCanal: Boolean,
 }, { versionKey: false });
 
 module.exports = model('Provider', providersSchema, 'providers');
