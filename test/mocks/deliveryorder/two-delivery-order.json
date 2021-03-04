@@ -1,0 +1,39 @@
+{
+  "orders": [
+    {
+      "products": [
+        {
+          "name": "Morzilla",
+          "unit": 4.200,
+          "iva": 0.1,
+          "price": 1.43,
+          "taxBase": 4.20,
+          "total": 5.27
+        }
+      ],
+      "date": 1590704800000,
+      "taxBase": 55.6,
+      "iva": 1.20,
+      "total": 22.3,
+      "nInvoice": "21/1",
+      "client": "5ed16182ed10b76e2856f079"
+    },
+    {
+      "products": [
+        {
+          "name": "Salchichas",
+          "unit": 1.700,
+          "iva": 0.16,
+          "price": 10.77,
+          "taxBase": 12.55,
+          "total": 17.47
+        }
+      ],
+      "date": 1590706800000,
+      "taxBase": 361.19,
+      "iva": 53.56,
+      "total": 323.136,
+      "client": "5e430c9b7d2d2ded823b153b"
+    }
+  ]
+}

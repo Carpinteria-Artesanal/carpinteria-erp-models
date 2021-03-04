@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "name": "Chorizo",
+      "unit": 2.200,
+      "iva": 0.21,
+      "taxBase": 3.20,
+      "price": 2.23,
+      "total": 4.46
+    }
+  ],
+  "date": 1590706800000,
+  "taxBase": 61.2,
+  "iva": 5.56,
+  "total": 323.136,
+  "nInvoice": "20/3",
+  "client": "5e430c9b7d2d2ded823b153b"
+}

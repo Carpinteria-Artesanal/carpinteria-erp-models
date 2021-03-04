@@ -1,13 +1,17 @@
-const provider = require('./provider');
 const account = require('./account');
+const budget = require('./budget');
 const clientInvoice = require('./clientinvoice');
-const product = require('./product');
+const deliveryOrder = require('./deliveryorder');
 const invoice = require('./invoice');
+const product = require('./product');
+const provider = require('./provider');
 
 module.exports = {
-  ...provider,
   ...account,
+  ...budget,
   ...clientInvoice,
-  ...product,
+  ...deliveryOrder,
   ...invoice,
+  ...product,
+  ...provider,
 };

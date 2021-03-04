@@ -23,7 +23,7 @@ Ver [CHANGELOG](https://github.com/soker90/carpinteria-erp-models/blob/master/CH
 ## Available models
 
 ```javascript
-  import models from 'arroyo-erp-models';
+  const models = require('carpinteria-erp-models');
 
   models.mongoose // Expose a mongoose instance to connect
   models.connect() // Expose a method to connect to mongoose and response with the connection
@@ -31,12 +31,13 @@ Ver [CHANGELOG](https://github.com/soker90/carpinteria-erp-models/blob/master/CH
   models.AccountModel // Expose a Account model with its statics & methods
   models.AutoIncrement // Expose a AutoIncrement model with its statics & methods
   models.BillingModel // Expose a Billing model with its statics & methods
+  models.BudgetModel // Expose a BudgetModel model with its statics & methods
   models.ClientModel // Expose a Client model with its statics & methods
   models.ClientInvoiceModel // Expose a Client ClientInvoice model with its statics & methods
+  models.DeliveryOrderModel // Expose a DeliveryOrderModel model with its statics & methods
   models.InvoiceModel // Expose a ClientInvoice model with its statics & methods
   models.NoteModel // Expose a Note model with its statics & methods
   models.PaymentModel // Expose a Payment model with its statics & methods
-  models.PriceModel // Expose a Price model with its statics & methods
   models.ProductService // Expose a Product model with its statics & methods
   models.ProviderService // Expose a Provider model with its statics & methods
 

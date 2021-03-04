@@ -3,8 +3,6 @@ const { Schema, model } = require('mongoose');
 const productSchema = new Schema({
   name: String,
   code: String,
-  provider: String,
-  nameProvider: String,
   rate: Number,
   iva: Number,
   re: Number,
@@ -14,4 +12,4 @@ const productSchema = new Schema({
   sale: Number
 }, { versionKey: false });
 
-module.exports = model('Products', productSchema);
+module.exports = model('Product', productSchema);

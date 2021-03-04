@@ -19,10 +19,6 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.code);
   expect(document.name)
     .toBe(mock.name);
-  expect(document.provider)
-    .toBe(mock.provider);
-  expect(document.nameProvider)
-    .toBe(mock.nameProvider);
   expect(document.rate)
     .toBe(mock.rate);
   expect(document.iva)
