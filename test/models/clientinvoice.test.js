@@ -28,6 +28,18 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.nInvoice);
   expect(document.client)
     .toBe(mock.client);
+  expect(document.paid)
+    .toBe(mock.paid);
+  expect(document.remaining)
+    .toBe(mock.remaining);
+  document.payments.forEach((payment, index) => {
+    expect(payment.amount)
+      .toBe(mock.payments[index].amount);
+    expect(payment.date)
+      .toBe(mock.payments[index].date);
+    expect(payment.paymentType)
+      .toBe(mock.payments[index].paymentType);
+  });
   document.products.forEach((product, index) => {
     expect(product.name)
       .toBe(mock.products[index].name);

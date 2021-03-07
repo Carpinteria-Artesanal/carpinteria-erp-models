@@ -16,7 +16,15 @@
       "iva": 1.20,
       "total": 22.3,
       "nInvoice": "21/1",
-      "client": "5ed16182ed10b76e2856f079"
+      "client": "5ed16182ed10b76e2856f079",
+      "paid": true,
+      "payments": [
+        {
+          "amount": 6,
+          "date": 1590706800000,
+          "paymentType": "CC"
+        }
+      ]
     },
     {
       "products": [
@@ -33,7 +41,15 @@
       "taxBase": 361.19,
       "iva": 53.56,
       "total": 323.136,
-      "client": "5e430c9b7d2d2ded823b153b"
+      "client": "5e430c9b7d2d2ded823b153b",
+      "remaining": 12,
+      "payments": [
+        {
+          "amount": 6,
+          "date": 1590706800000,
+          "paymentType": "Tarjeta"
+        }
+      ]
     }
   ]
 }
