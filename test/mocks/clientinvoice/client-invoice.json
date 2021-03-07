@@ -14,5 +14,13 @@
   "iva": 5.56,
   "total": 323.136,
   "nInvoice": "20/3",
-  "client": "5e430c9b7d2d2ded823b153b"
+  "client": "5e430c9b7d2d2ded823b153b",
+  "paid": true,
+  "payments": [
+    {
+      "amount": 12,
+      "date": 1590706800000,
+      "paymentType": "Efectivo"
+    }
+  ]
 }
