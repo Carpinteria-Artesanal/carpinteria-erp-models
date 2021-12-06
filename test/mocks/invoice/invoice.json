@@ -12,12 +12,26 @@
   "nInvoice": "3",
   "concept": "Alquiler",
   "reRental": 12.5,
-  "payment": {
-    "type": "Efectivo",
-    "paymentDate": 1590706800000,
-    "paid": true,
-    "invoicesOrder": "23 44"
-  },
+  "paymentType": "Efectivo",
+  "payments": [
+    {
+      "paymentDate": 1590707800000,
+      "amount": 12
+    },
+    {
+      "paymentDate": 1590708800000,
+      "amount": 5
+    },
+    {
+      "paymentDate": 1590706800000,
+      "amount": 3
+    },
+    {
+      "paymentDate": 1590702800000,
+      "amount": 4
+    }
+  ],
+  "paid": true,
   "bookColumn": "Compras",
   "businessName": "Provider SL",
   "cif": "23232B",

@@ -16,21 +16,20 @@ const {InvoiceModel} = models;
  * @private
  */
 const _checkCreated = (document, mock) => {
-  expect(document.deliveryOrders.toString()).toBe(mock.deliveryOrders.toString());
   expect(document.dateInvoice).toBe(mock.dateInvoice);
   expect(document.dateRegister).toBe(mock.dateRegister);
   expect(document.total).toBe(mock.total);
   expect(document.iva).toBe(mock.iva);
-  expect(document.re).toBe(mock.re);
   expect(document.nInvoice).toBe(mock.nInvoice);
   expect(document.taxBase).toBe(mock.taxBase);
   expect(document.concept).toBe(mock.concept);
   expect(document.mailSend).toBe(mock.mailSend);
-  expect(document.payment.type).toBe(mock.payment.type);
-  expect(document.payment.paymentDate).toBe(mock.payment.paymentDate);
-  expect(document.payment.numCheque).toBe(mock.payment.numCheque);
-  expect(document.payment.paid).toBe(mock.payment.paid);
-  expect(document.payment.invoicesOrder).toBe(mock.payment.invoicesOrder);
+  expect(document.paymentType).toBe(mock.paymentType);
+  document.payments.forEach((payment, index) => {
+    expect(payment.paymentDate).toBe(mock.payments[index].paymentDate);
+    expect(payment.amount).toBe(mock.payments[index].amount);
+  })
+  expect(document.paid).toBe(mock.paid);
   expect(document.bookColumn).toBe(mock.bookColumn);
   expect(document.businessName).toBe(mock.businessName);
   expect(document.cif).toBe(mock.cif);
