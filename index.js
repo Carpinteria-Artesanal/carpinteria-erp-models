@@ -20,9 +20,7 @@ class Models {
     }
 
     Object.assign(options, {
-      useCreateIndex: true,
       useNewUrlParser: true,
-      useFindAndModify: false,
       useUnifiedTopology: true,
     });
 
