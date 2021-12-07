@@ -33,11 +33,11 @@
     "bcrypt": "^5.0.0",
     "bluebird": "^3.7.2",
     "mongodb-memory-server": "^8.0.4",
-    "mongoose": "^6.0.14",
+    "mongoose": "^6.0.15",
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
-    "eslint": "^8.4.0",
+    "eslint": "^8.4.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jest": "^25.2.4",
