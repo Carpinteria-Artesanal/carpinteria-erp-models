@@ -1,4 +1,12 @@
-const { Schema, model } = require('mongoose');
+const {
+  Schema,
+  model
+} = require('mongoose');
+
+const Payment = {
+  paymentDate: { type: Number },
+  amount: { type: Number }
+};
 
 const invoiceSchema = new Schema({
   dateInvoice: Number,
@@ -11,9 +19,7 @@ const invoiceSchema = new Schema({
   taxBase: Number,
   provider: String,
   nameProvider: String,
-  payments: [
-    {paymentDate: { type: Number }, amount: { type: Number }}
-  ],
+  payments: [Payment],
   paymentType: { type: String },
   paid: { type: Boolean },
   bookColumn: String, // Name column in book
