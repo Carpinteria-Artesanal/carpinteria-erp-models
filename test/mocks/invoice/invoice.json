@@ -16,11 +16,13 @@
   "payments": [
     {
       "paymentDate": 1590707800000,
-      "amount": 12
+      "amount": 12,
+      "paid": true
     },
     {
       "paymentDate": 1590708800000,
-      "amount": 5
+      "amount": 5,
+      "paid": true
     },
     {
       "paymentDate": 1590706800000,
