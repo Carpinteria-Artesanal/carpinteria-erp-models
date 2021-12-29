@@ -8,7 +8,8 @@
           "iva": 0.1,
           "price": 1.43,
           "taxBase": 4.20,
-          "total": 5.27
+          "total": 5.27,
+          "code": "jkj"
         }
       ],
       "date": 1590704800000,

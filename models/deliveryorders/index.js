@@ -12,6 +12,7 @@ const deliveryOrderSchema = new Schema({
     iva: Number,
     taxBase: Number,
     total: Number,
+    code: String,
   }],
   taxBase: Number,
   iva: Number,
