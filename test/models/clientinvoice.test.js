@@ -32,6 +32,7 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.paid);
   expect(document.remaining)
     .toBe(mock.remaining);
+  expect(document.businessName).toBe(mock.businessName);
   document.payments.forEach((payment, index) => {
     expect(payment.amount)
       .toBe(mock.payments[index].amount);

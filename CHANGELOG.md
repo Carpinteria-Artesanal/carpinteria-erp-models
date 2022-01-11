@@ -1,6 +1,6 @@
 # Changelog
 ## [1.0.2]
-- Actualización de dependencias
+- Añadido bussinessName a client invoices
 
 ## [1.0.1]
 

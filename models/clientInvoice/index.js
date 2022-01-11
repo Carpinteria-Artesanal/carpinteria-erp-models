@@ -27,6 +27,7 @@ const clientInvoiceSchema = new Schema({
     date: Number,
     paymentType: String,
   }],
+  businessName: String,
 }, { versionKey: false });
 
 module.exports = model('ClientInvoice', clientInvoiceSchema);

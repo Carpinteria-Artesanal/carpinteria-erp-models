@@ -1,6 +1,6 @@
 {
   "name": "carpinteria-erp-models",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Models for carpinteria erp",
   "main": "index.js",
   "scripts": {

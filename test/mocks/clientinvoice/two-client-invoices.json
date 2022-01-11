@@ -25,7 +25,8 @@
           "date": 1590706800000,
           "paymentType": "CC"
         }
-      ]
+      ],
+      "businessName": "Client2 SL"
     },
     {
       "products": [
@@ -51,7 +52,8 @@
           "date": 1590706800000,
           "paymentType": "Tarjeta"
         }
-      ]
+      ],
+      "businessName": "Client3 SL"
     }
   ]
 }
